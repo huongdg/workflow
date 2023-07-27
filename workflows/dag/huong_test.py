@@ -12,7 +12,7 @@ from airflow.utils.dates import days_ago
 from datetime import date
 from datetime import datetime, timedelta
 
-dag = DAG('huongtest1', description='huongtest1',
+dag = DAG('huong_test_demo', description='huong_test_demo',
           schedule_interval="0 10 * * *", start_date=datetime(2022, 6, 20),
           catchup=False)
 
